@@ -1,0 +1,93 @@
+$color-base: white;
+$color-principal: #abc28f;
+
+.navbar{
+    background-color: $color-principal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    height: 70px;
+}
+
+.navbar-brand{
+    background-image: url(img/letras.PNG);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 150px;
+}
+
+.nav-link{
+    color: black !important;
+    font-weight: bold;
+    margin-inline: 2rem;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 651px;
+    object-fit: cover;
+}
+
+.sec{
+    margin: 50px;
+    border: 3px solid $color-principal;
+    width: calc(100% - 100px);
+    ul{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        border: 2px solid $color-principal;
+    }
+    a:hover{
+        transform: scale(2);
+        transition: all 0.5s; 
+    }
+}
+
+.principal{
+    p{
+        margin: 50px;
+        padding: 20px;
+        border: 2px solid $color-principal;
+    }
+}
+
+footer{
+    background-color: $color-principal;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    height: 100px;
+    p{
+        margin-bottom: 10px;
+    }
+    i{
+        padding-top: 10px;
+        font-size: 20px;
+        letter-spacing: 20px;
+        color: $color-base;
+    }
+    i:hover{
+        color: #97958e;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+.size{
+    align-items: center;
+}
+
+.producto{
+    border: 2px solid $color-principal;
+    padding: 10px;
+    margin: 10px;
+    height: 300px;
+    position: center;
+    align-items: center;
+}
