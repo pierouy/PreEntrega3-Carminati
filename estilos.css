@@ -1,24 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 .navbar {
   background-color: #abc28f;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
-  font-size: 16px;
-  height: 70px;
+  font-size: 20px;
 }
 
 .navbar-brand {
-  background-image: url(letras.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  height: 40px;
+  height: 60px;
   width: 150px;
 }
 
 .nav-link {
   color: black !important;
   font-weight: bold;
-  margin-inline: 2rem;
+  margin-inline: 1rem;
+}
+
+.nav-link:hover {
+  color: white !important;
 }
 
 .carousel-inner img {
@@ -86,4 +89,22 @@ footer a {
   height: 300px;
   position: center;
   align-items: center;
+}
+
+.formulario p {
+  margin: 50px;
+  padding: 20px;
+  border: 2px solid #abc28f;
+}
+.formulario form {
+  margin: 50px;
+  padding: 20px;
+  border: 2px solid #abc28f;
+}
+.formulario button {
+  background-color: #abc28f;
+  border: none;
+}
+.formulario button:hover {
+  background-color: #97958e;
 }/*# sourceMappingURL=estilos.css.map */
